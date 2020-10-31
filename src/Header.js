@@ -2,13 +2,16 @@ import React from 'react';
 import './Header.css';
 import { Link } from 'react-router-dom';
 import SearchIcon from "@material-ui/icons/Search";
+import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
 
 function Header() {
     return (
         <nav className="header">
             {/* logo on the top*/}
             <Link to="/">
-            <img className="header__logo" src="http://pngimg.com/uploads/amazon/amazon_PNG11.png" alt=""/>
+                
+            <img className="header__logo" src="images/logo1.png" alt=""/>
+            
             </Link>
             {/* search box*/}
             <div className="header__search">
@@ -19,22 +22,29 @@ function Header() {
             <div className="header__nav">
                 <Link to="/login" className="header__link">
                     <div className="header__option">
-                        <span>hello karan,</span>
-                        <span>Sign In</span>
+                        <span className="header__optionLineOne">hello karan,</span>
+                        <span className="header__optionLineTwo">Sign In</span>
                     </div>
                 
                 </Link>
                 <Link className="header__link">
                     <div className="header__option">
-                        <span>Returns</span>
-                        <span>&orders</span>
+                        <span className="header__optionLineOne">Returns</span>
+                        <span className="header__optionLineTwo">&orders</span>
                     </div>
                 
                 </Link>
                 <Link className="header__link">
                     <div className="header__option">
-                        <span>Your</span>
-                        <span>Prime</span>
+                        <span className="header__optionLineOne">Your</span>
+                        <span className="header__optionLineTwo">Prime</span>
+                    </div>
+                
+                </Link>
+                <Link to="/checkout" className="header__link">
+                    <div className="header__optionBasket">
+                        <ShoppingBasketIcon />                       
+                        <span className="header__optionLineTwo header__basketCount">0</span>
                     </div>
                 
                 </Link>
