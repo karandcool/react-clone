@@ -9,41 +9,34 @@ function Home() {
             <div className="home__row">
                 <Product 
                 id="12345"
-                title="the King of the jungle lion"
+                title="Original Apple Airpods 3 "
                 price={20.35}
                 rating={5}
                 image="images/apple.jpg" alt=""
                 />
                 <Product 
                 id="12345"
-                title="the King of the jungle lion"
-                price={20.35}
-                rating={5}
-                image="images/apple.jpg" alt=""
+                title="Harry Potter and the cursed child Novel"
+                price={10}
+                rating={4}
+                image="images/harry.jpg" alt=""
                 />
 
             </div>
             <div className="home__row">
                 <Product 
                 id="12345"
-                title="the King of the jungle lion"
-                price={20.35}
+                title="One Plus mobile"
+                price={450}
                 rating={5}
-                image="images/apple.jpg" alt=""
+                image="images/oneplus.jpg" alt=""
                 />
                 <Product 
                 id="12345"
-                title="the King of the jungle lion"
-                price={20.35}
+                title="Oppo Mobiles:the best you can get"
+                price={200}
                 rating={5}
-                image="images/apple.jpg" alt=""
-                />
-                <Product 
-                id="12345"
-                title="the King of the jungle lion"
-                price={20.35}
-                rating={5}
-                image="images/apple.jpg" alt=""
+                image="images/oppo.jpg" alt=""
                 />
 
             </div>

@@ -1,7 +1,10 @@
+.nav {
+    align-items:center;
+}
 .header__logo {
 width:30px;
 object-fit:contain;
-margin:0 10px;
+margin:0 25px;
 margin-top:11px;
 }
 .header{
@@ -39,10 +42,10 @@ flex:1;
     margin-right:10px;
 }
 .header__optionLineOne{
-    font-size:10px;
+    font-size:11px;
 }
 .header__optionLineTwo{
-    font-size:13px;
+    font-size:14px;
     font-weight:600;
 }
 .header__searchInput{
